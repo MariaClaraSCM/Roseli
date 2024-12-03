@@ -999,3 +999,17 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+@media (max-width: 600px){
+  button#playPauseBtn {
+    background-color: #aa157d;
+    position: fixed;
+    z-index: 1;
+    color: #fff;
+    padding: 2vw;
+    font-size: 6vw;
+    top: 50vw;
+    border-radius: 1vw;
+    border: none;
+  }
+}
